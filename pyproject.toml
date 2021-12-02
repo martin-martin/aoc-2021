@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aoc-2021"
+version = "0.1.0"
+description = ""
+authors = ["martin-martin <breuss.martin@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+advent-of-code-data = "^1.1.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
